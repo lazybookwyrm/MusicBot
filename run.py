@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#!/usr/bin/env python3
 
 from __future__ import print_function
 
@@ -176,7 +177,7 @@ def finalize_logging():
     dlog = logging.getLogger('discord')
     dlh = logging.StreamHandler(stream=sys.stdout)
     dlh.terminator = ''
-    dlh.setFormatter(logging.Formatter('.'))
+    #dlh.setFormatter(logging.Formatter('.'))
     dlog.addHandler(dlh)
 
 
